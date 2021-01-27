@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/eventInfoView"/>
+
+    <LinearLayout
+        android:id="@+id/eventInfoView"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="75sp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/genderImageView">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10sp"
+                    android:id="@+id/genderImageViewPadding"/>
+
+                <ImageView
+                    android:id="@+id/genderImage"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentLeft="true"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/defaultEventTextView"
+                android:layout_margin="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:layout_toRightOf="@+id/genderImageView"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/personNameTextView"
+                android:layout_margin="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="28sp"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:layout_toRightOf="@id/genderImageView"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/eventDetailsTextView"
+                />
+
+            <TextView
+                android:id="@+id/eventDetailsTextView"
+                android:layout_margin="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="48sp"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:layout_toRightOf="@id/genderImageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

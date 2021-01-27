@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FamilyMapClient</string>
+    <string name="settings_activity">Settings Activity</string>
+    <string name="search_activity">Search Activity</string>
+    <string name="person_activity">Person Activity</string>
+    <string name="event_activity">Event Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="server_host">Server Host:</string>
+    <string name="server_port">Server Port:</string>
+    <string name="user_name">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+
+    <string name="http_host">10.0.2.2</string>
+    <string name="http_port">8080</string>
+
+    <string name="mapFragmentMessage">IMPLEMENT MAP</string>
+
+    <string name="defaultEventText">Click on a marker to see event details</string>
+    <string name="action_up">Up Button</string>
+    <string name="action_search">Search Button</string>
+    <string name="action_settings">Settings Button</string>
+
+    <string name="lifeEventsTitle">LIFE EVENTS</string>
+    <string name="familyTitle">FAMILY</string>
+
+    <string name="life_story_lines_settings">Life Story Lines</string>
+    <string name="life_story_lines_subscript_settings">SHOW LIFE STORY LINES</string>
+    <string name="family_tree_lines_settings">Family Tree Lines</string>
+    <string name="family_tree_lines_subscript_settings">SHOW FAMILY TREE LINES</string>
+    <string name="spouse_lines_settings">Spouse Lines</string>
+    <string name="spouse_lines_subscript_settings">SHOW SPOUSE LINES</string>
+    <string name="fathers_side_settings">Father\'s Side</string>
+    <string name="fathers_side_subscript_settings">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="mothers_side_settings">Mother\'s Side</string>
+    <string name="mothers_side_subscript_settings">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="male_events_settings">Male Events</string>
+    <string name="events_subscript_settings">FILTER EVENTS BASED ON GENDER</string>
+    <string name="female_events_settings">Female Events</string>
+    <string name="logout_settings">Logout</string>
+    <string name="logout_subscript_settings">RETURN TO LOGIN SCREEN</string>
+</resources>
