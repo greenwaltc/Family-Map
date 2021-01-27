@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SharedServerClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SharedServerClient_jar</output-path>
+    <root id="archive" name="SharedServerClient.jar">
+      <element id="module-output" name="SharedServerClient" />
+    </root>
+  </artifact>
+</component>

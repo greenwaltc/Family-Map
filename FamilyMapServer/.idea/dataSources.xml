@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="TestDatabase" uuid="78e87395-af73-496f-ab5c-29b859d274cc">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\camer\IdeaProjects\CS240 Family Map Server\TestDatabase.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
